@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A recent CS grad student documenting his life<a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">A recent CS grad student documenting his life </h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
