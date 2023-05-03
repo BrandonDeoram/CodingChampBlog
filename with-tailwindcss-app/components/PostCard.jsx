@@ -4,15 +4,15 @@ import Link from "next/link";
 const PostCard = ({ post }) => {
   console.log(post);
   return (
-    <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
-      <div className="relative overflow-hidden shadow-sm pb-80 mb-6">
+    <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8  transition ease-linear delay-150 hover:-translate-y-1 hover:scale-100 hover:opacity-80  duration-300">
+      <div className="relative overflow-hidden pb-40 mb-6 ">
         <img
           src={post.featuredImage.url}
           alt={post.title}
-          className="object-top absolute h-80 w-full object-cover shadow-lg rounded-t-lg lg:rounded-lg"
+          className="object-top absolute h-40 w-full object-contain rounded-t-lg lg:rounded-lg "
         />
       </div>
-      <h1 className="transition duration-300 text-center mb-8 cursor-pointer hover:text-blue-600 text-3xl font-semibold">
+      <h1 className="transition duration-300 text-center mb-8 cursor-pointer hover:text-blue-600 text-2xl font-semibold">
         <Link href={`/post/${post.slug}`}>{post.title}</Link>
       </h1>
       <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
