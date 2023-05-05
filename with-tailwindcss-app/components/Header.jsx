@@ -6,8 +6,8 @@ const categories = [
 ];
 const Header = () => {
   return (
-    <div className="container mx-auto px-20 mb-8">
-      <div className="w-full inline-block  py-8">
+    <div className="container mx-auto px-10 mb-8">
+      <div className="w-full inline-block  py-8 ">
         <div className="md:float-left block">
           <Link href="/">
             <span className="cursor-pointer font-bold text-2xl text-black">
