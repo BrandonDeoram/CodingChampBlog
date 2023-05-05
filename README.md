@@ -19,7 +19,7 @@
 </p>
 
 
-## Key Features
+## Tech Stack 
 
 * LivePreview - Make changes, See changes
   - Instantly see what your Markdown documents look like in HTML as you create them.
