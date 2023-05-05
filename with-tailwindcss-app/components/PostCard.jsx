@@ -24,14 +24,14 @@ const PostCard = ({ post }) => {
             width="40px"
             className="rounded-full"
           />
-          <p className="inline align-middle text-gray-700 ml-2 text-lg">
+          <p className="inline align-middle text-lightGreyBlue ml-2 text-lg">
             {post.author.name}
           </p>
         </div>
         <div className="font-medium text-gray-700">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 inline mr-2 text-pink-500"
+            className="h-6 w-6 inline mr-2 text-lightGreyBlue"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -53,7 +53,7 @@ const PostCard = ({ post }) => {
       </p>
       <div className="text-center">
         <Link href={`/post/${post.slug}`}>
-          <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">
+          <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-lightGreyBlue text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">
             Continue Reading
           </span>
         </Link>
