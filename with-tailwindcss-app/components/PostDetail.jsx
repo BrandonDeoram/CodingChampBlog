@@ -60,11 +60,11 @@ const PostDetail = ({ post }) => {
   };
   return (
     <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
-      <div className="relative overflow-hidden shadow-md mb-6">
+      <div className="relative overflow-hidden rounded-lg mb-6">
         <img
           src={post.featuredImage.url}
           alt=""
-          className="object-top h-full w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg"
+          className="object-top h-full w-full object-cover "
         />
       </div>
       <div className="px-4 lg:px-0">
@@ -101,7 +101,7 @@ const PostDetail = ({ post }) => {
             </span>
           </div>
         </div>
-        <h1 className="mb-8 text-3xl font-semibold">{post.title}</h1>
+        <h1 className="mb-8 lg:text-3xl md:2xl sm:text-2xl font-semibold">{post.title}</h1>
         {post.content.raw.children.map((typeObj, index) => {
           const children = typeObj.children.map((item, itemindex) =>
             getContentFragment(itemindex, item.text, item)
