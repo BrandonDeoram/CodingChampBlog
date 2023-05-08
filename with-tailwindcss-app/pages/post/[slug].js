@@ -8,8 +8,13 @@ import {
   Categories,
 } from "@/components";
 import { getPosts, getPostDetails } from "../../services";
-
+import { useRouter } from "next/router";
+import { Loader } from "@/components";
 const PostDetails = ({ post }) => {
+  const router = useRouter();
+  if (router.isFallback) {
+    return <Loader />;
+  }
   console.log(post);
   return (
     <>
@@ -53,6 +58,6 @@ export async function getStaticPaths() {
   const posts = await getPosts();
   return {
     paths: posts.map(({ node: { slug } }) => ({ params: { slug } })),
-    fallback: false,
+    fallback: true,
   };
 }
