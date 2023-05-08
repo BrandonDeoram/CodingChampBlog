@@ -1,10 +1,11 @@
 import Head from "next/head";
 import { getPosts } from "../services";
 import { PostCard, Categories, PostWidget } from "../components";
+import FeaturedPosts from "@/sections/FeaturedPost";
 export default function Home({ posts }) {
   return (
     <div className="sm:container sm:mx-auto sm:px-10 mb-8 mx-5">
-      {/* <FeaturedPosts /> */}
+      <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
           {posts.map((post, index) => (
