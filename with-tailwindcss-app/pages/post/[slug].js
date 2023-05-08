@@ -18,7 +18,6 @@ const PostDetails = ({ post }) => {
           <div className="col-span-1 lg:col-span-8">
             <PostDetail post={post} />
             <Author author={post.author} />
-
             <CommentsForm />
             <Comments />
           </div>
