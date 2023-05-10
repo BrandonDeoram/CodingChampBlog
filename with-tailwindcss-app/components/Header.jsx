@@ -66,11 +66,11 @@ const Header = () => {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } `}
+          } md:block md:float-right md:contents flex items-start justify-start h-full mt-2 `}
         >
           {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}>
-              <span className="md:float-right align-middle text-black ml-4 font-semibold cursor-pointer hover:bg-buttonHover p-3 rounded-lg transition duration-200">
+              <span className="md:float-right align-middle text-black lg:ml-4 font-semibold cursor-pointer hover:bg-buttonHover p-3 rounded-lg transition duration-200">
                 {category.name}
               </span>
             </Link>
