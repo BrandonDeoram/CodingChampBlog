@@ -40,7 +40,7 @@ const FeaturedPosts = () => {
       <Carousel
         infinite
         responsive={responsive}
-        itemClass="px-4"
+
       >
         {dataLoaded &&
           featuredPosts.map((post, index) => (
