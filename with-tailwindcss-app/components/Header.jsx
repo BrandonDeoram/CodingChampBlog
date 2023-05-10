@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { getCategories } from "../services";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Header = () => {
   const [categories, setCategories] = useState([]);
@@ -12,8 +12,8 @@ const Header = () => {
     });
   }, []);
   return (
-    <div className="container mx-auto px-10 mb-8">
-      <div className="w-full inline-block  py-8 ">
+    <div className="container sm:mx-auto sm:px-10 mb-8 px-4 ">
+      <div className="w-full inline-block py-8 border-b-4 ">
         <div className="md:float-left block">
           <Link href="/">
             <span className="cursor-pointer font-bold text-2xl text-black">

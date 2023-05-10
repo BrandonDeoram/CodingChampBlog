@@ -5,6 +5,9 @@ import FeaturedPosts from "@/sections/FeaturedPost";
 export default function Home({ posts }) {
   return (
     <div className="sm:container sm:mx-auto sm:px-10 mb-8 mx-5">
+      <h1 className="sm:text-2xl mb-4 font-semibold pb-4 text-xl">
+        Featured Posts
+      </h1>
       <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
