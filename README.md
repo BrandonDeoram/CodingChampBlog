@@ -9,11 +9,6 @@
 
 <h4 align="center">A recent CS grad student documenting his life with bad writting</h4>
 
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-</p>
-
-
 ## Tech Stack 
 
 * React.js
