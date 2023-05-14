@@ -7,15 +7,10 @@
   <br>
 </h1>
 
-<h4 align="center">A recent CS grad student documenting his life </h4>
-
-<p align="center">
-  <a href="#key-features">Key Features</a> •
-</p>
-
+<h4 align="center">A recent CS grad student documenting his life with bad writting</h4>
 
 ## Tech Stack 
 
-* React
+* React.js
 * GraphQL
 
