@@ -10,10 +10,17 @@ const About = () => {
           }
           className="mx-auto w-36 h-36 rounded-full border-4 border-buttonHover"
         />
-        <p className="my-4 text-2xl font-semibold sm:text-4xl">
-            About Me 
+        <p className="my-4 text-2xl font-semibold sm:text-4xl">About Me</p>
+        <p className="px-4 md:px-6 pt-5 pb-24 md:pb-44 max-w-[900px] mx-auto">
+          Hi there! I'm Sanjay, a Full Stack Developer who loves coding projects
+          that benefit both myself and others. I recently graduated from Ontario Tech University with a major in
+          Computer Science.Apart from work and school, I enjoy creating YouTube videos, including
+          study vlogs and developer vlogs, to document my coding project
+          journey.
+          <br />
+          <br />
         </p>
-        <p>Content</p>
+
         <div>More content</div>
       </div>
     </div>
