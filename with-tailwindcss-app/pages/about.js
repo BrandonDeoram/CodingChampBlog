@@ -29,14 +29,17 @@ const About = () => {
             }
             onClick={() => window.open("https://www.tiktok.com/@sanjaydeoram")}
             alt="tiktok"
-            className="w-10 h-10 opacity-50"
+            className="w-10 h-10 hover:opacity-70 cursor-pointer"
           />
           <img
             src={
               "https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
             }
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/sanjaydeoram/")
+            }
             alt="linkedin"
-            className="w-10 h-10"
+            className="w-10 h-10 hover:opacity-70 cursor-pointer"
           />
         </div>
         <div className="flex items-center justify-center content-center gap-5 flex-wrap pt-10">
