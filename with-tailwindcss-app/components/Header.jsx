@@ -75,6 +75,11 @@ const Header = () => {
               </span>
             </Link>
           ))}
+          <Link href={"/about"}>
+            <span className="md:float-right align-middle text-black lg:ml-4 font-semibold cursor-pointer hover:bg-buttonHover p-3 rounded-lg transition duration-200">
+              About Me
+            </span>
+          </Link>
         </div>
       </div>
     </div>

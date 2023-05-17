@@ -26,6 +26,15 @@ const Categories = () => {
           </span>
         </Link>
       ))}
+      <Link key={index} href={`aboutMe`}>
+        <span
+          className={`cursor-pointer block ${
+            index === categories.length - 1 ? "" : ""
+          }  mb-3  hover:bg-buttonHover p-3 rounded-lg transition duration-200`}
+        >
+          {category.name}
+        </span>
+      </Link>
     </div>
   );
 };
