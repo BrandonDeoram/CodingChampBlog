@@ -15,7 +15,7 @@ const About = () => {
         <p className="px-4 md:px-6 pt-5 pb-5 md:pb-1 max-w-[900px] mx-auto">
           Hi there! I'm Sanjay, a Full Stack Developer who loves coding projects
           that benefit both myself and others. I recently graduated from Ontario
-          Tech University with a major in Computer Science.Apart from work and
+          Tech University with a major in Computer Science. Apart from work and
           school, I enjoy creating YouTube videos, including study vlogs and
           developer vlogs, to document my coding project journey.
           <br />
@@ -50,7 +50,7 @@ const About = () => {
             sanjay.deoram@ontariotechu.net
           </button>
           <button
-            className="text-black lg:ml-4 cursor-pointer hover:opacity-70 bg-buttonHover p-3 rounded-lg transition duration-200"
+            className="text-black lg:ml-4 cursor-pointer hover:opacity-70 bg-buttonHover p-3 rounded-lg transition duration-200  min-w-[290px]"
             onClick={() => window.open("https://github.com/BrandonDeoram")}
           >
             See Github Projects
